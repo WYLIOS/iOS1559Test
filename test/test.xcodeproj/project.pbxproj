@@ -14,6 +14,7 @@
 		4EC9B8911C34C6DE002F873D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC9B8901C34C6DE002F873D /* Images.xcassets */; };
 		4EC9B8941C34C6DE002F873D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC9B8921C34C6DE002F873D /* LaunchScreen.xib */; };
 		4EC9B8A01C34C6DE002F873D /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC9B89F1C34C6DE002F873D /* testTests.m */; };
+		4EC9B8AB1C34C9B4002F873D /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC9B8AA1C34C9B4002F873D /* firstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4EC9B8991C34C6DE002F873D /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC9B89E1C34C6DE002F873D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EC9B89F1C34C6DE002F873D /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		4EC9B8A91C34C9B4002F873D /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		4EC9B8AA1C34C9B4002F873D /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				4EC9B8901C34C6DE002F873D /* Images.xcassets */,
 				4EC9B8921C34C6DE002F873D /* LaunchScreen.xib */,
 				4EC9B8831C34C6DE002F873D /* Supporting Files */,
+				4EC9B8A91C34C9B4002F873D /* firstViewController.h */,
+				4EC9B8AA1C34C9B4002F873D /* firstViewController.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				4EC9B88C1C34C6DE002F873D /* ViewController.m in Sources */,
 				4EC9B8891C34C6DE002F873D /* AppDelegate.m in Sources */,
 				4EC9B8861C34C6DE002F873D /* main.m in Sources */,
+				4EC9B8AB1C34C9B4002F873D /* firstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				4EC9B8A51C34C6DE002F873D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EC9B8A61C34C6DE002F873D /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				4EC9B8A81C34C6DE002F873D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
